@@ -14,6 +14,9 @@
 		3315C639297DFBD200D8D39E /* CoreDataPractice1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3315C637297DFBD200D8D39E /* CoreDataPractice1.xcdatamodeld */; };
 		3315C63B297DFBD300D8D39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3315C63A297DFBD300D8D39E /* Assets.xcassets */; };
 		3315C63E297DFBD300D8D39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3315C63C297DFBD300D8D39E /* LaunchScreen.storyboard */; };
+		3315C647297E036900D8D39E /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3315C645297E036900D8D39E /* Person+CoreDataClass.swift */; };
+		3315C648297E036900D8D39E /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3315C646297E036900D8D39E /* Person+CoreDataProperties.swift */; };
+		3315C64B297E099000D8D39E /* PersonCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3315C64A297E099000D8D39E /* PersonCellVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		3315C63A297DFBD300D8D39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3315C63D297DFBD300D8D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3315C63F297DFBD300D8D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3315C645297E036900D8D39E /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3315C646297E036900D8D39E /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3315C64A297E099000D8D39E /* PersonCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		3315C62D297DFBD200D8D39E /* CoreDataPractice1 */ = {
 			isa = PBXGroup;
 			children = (
+				3315C649297E037700D8D39E /* Model */,
 				3315C62E297DFBD200D8D39E /* AppDelegate.swift */,
 				3315C630297DFBD200D8D39E /* SceneDelegate.swift */,
 				3315C632297DFBD200D8D39E /* ViewController.swift */,
@@ -66,8 +73,18 @@
 				3315C63C297DFBD300D8D39E /* LaunchScreen.storyboard */,
 				3315C63F297DFBD300D8D39E /* Info.plist */,
 				3315C637297DFBD200D8D39E /* CoreDataPractice1.xcdatamodeld */,
+				3315C64A297E099000D8D39E /* PersonCellVC.swift */,
 			);
 			path = CoreDataPractice1;
+			sourceTree = "<group>";
+		};
+		3315C649297E037700D8D39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3315C645297E036900D8D39E /* Person+CoreDataClass.swift */,
+				3315C646297E036900D8D39E /* Person+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +160,10 @@
 			files = (
 				3315C633297DFBD200D8D39E /* ViewController.swift in Sources */,
 				3315C639297DFBD200D8D39E /* CoreDataPractice1.xcdatamodeld in Sources */,
+				3315C648297E036900D8D39E /* Person+CoreDataProperties.swift in Sources */,
+				3315C647297E036900D8D39E /* Person+CoreDataClass.swift in Sources */,
 				3315C62F297DFBD200D8D39E /* AppDelegate.swift in Sources */,
+				3315C64B297E099000D8D39E /* PersonCellVC.swift in Sources */,
 				3315C631297DFBD200D8D39E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
